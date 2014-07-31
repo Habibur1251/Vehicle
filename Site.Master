@@ -1,0 +1,67 @@
+﻿<%@ master language="C#" autoeventwireup="true" codebehind="Site.master.cs" inherits="VehicleMaintenanceSystem.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:contentplaceholder id="HeadContent" runat="server">
+    </asp:contentplaceholder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+        <%--<img src="Images/logo.png" width="49px" height="50px" alt="Orion Group." border="0" />--%>
+            <div class="title">
+            
+                <h1 style="vertical-align:middle">
+                    Vehicle Management System
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:loginview id="HeadLoginView" runat="server" enableviewstate="false">
+                    <anonymoustemplate>
+                        <%--[ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]--%>
+                    </anonymoustemplate>
+                    <loggedintemplate>
+                        Welcome <span class="bold">
+                            <asp:loginname id="HeadLoginName" runat="server" />
+                        </span>! [
+                        <asp:hyperlink id="ChangePasswordHyperLink" runat="server" navigateurl="~/Account/ChangePassword.aspx">Change Password</asp:hyperlink>
+                        ] [
+                        <asp:loginstatus id="HeadLoginStatus" runat="server" logoutaction="Redirect" logouttext="Log Out"
+                            logoutpageurl="~/Account/Login.aspx" />
+                        ]
+                    </loggedintemplate>
+                </asp:loginview>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:menu id="NavigationMenu" runat="server" cssclass="menu" enableviewstate="false"
+                    includestyleblock="false" orientation="Horizontal" 
+                     >
+                    <items> 
+                        <asp:menuitem   value="0" navigateurl="~/Default.aspx" text="Home" />
+                        <asp:menuitem value="1" navigateurl="~/Account/Register.aspx" text="Register" />
+                        <asp:menuitem value="2" navigateurl="~/Account/RoleManager.aspx" text="Role" />
+                        <asp:menuitem value="3" navigateurl="~/Vehicle/User.aspx" text="Users" />
+                        <asp:menuitem value="4" navigateurl="~/Vehicle/Vehicles.aspx?vehicle_type=1" text="Vehicles" />
+                        <asp:menuitem value="5" navigateurl="~/Vehicle/Vehicles.aspx?vehicle_type=2" text="Motorcycles" />
+                        <asp:menuitem value="6" navigateurl="~/Vehicle/VehicleModelType.aspx" text="Model Type" />
+                        <asp:menuitem value="7" navigateurl="" text="Report" />
+                        
+                    </items>
+                </asp:menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:contentplaceholder id="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Documents and Settings\Administrator\Desktop\x" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="Vehicle" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Images/logo.png" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Global.asax" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="dll/AjaxControlToolkit.dll" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Vehicle/VehiclesByUserPrintView.aspx" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Styles/Site.css" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Vehicle/User.aspx" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Report/VehiclesByUser.aspx" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Account/RoleManager.aspx" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Vehicle/VehicleHistory.aspx" publishTime="01/07/2014 11:48:37" />
+    <file relUrl="Site.Master" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="bin/RadTabStrip.Net2.dll" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Account/Web.config" publishTime="01/23/2014 12:41:26" />
+    <file relUrl="bin/Telerik.Web.UI.dll" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Account/Login.aspx" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="bin/AjaxControlToolkit.dll" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Report/Web.config" publishTime="01/23/2014 12:41:26" />
+    <file relUrl="Images/Calendar_scheduleHS.png" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Default.aspx" publishTime="10/02/2013 15:50:20" />
+    <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Vehicle/GridPrint.aspx" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Vehicle/Vehicles.aspx" publishTime="01/23/2014 12:37:43" />
+    <file relUrl="Account/Register.aspx" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="bin/VehicleMaintenanceSystem.dll" publishTime="01/23/2014 13:44:30" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="Vehicle/Web.config" publishTime="01/23/2014 12:41:26" />
+    <file relUrl="Vehicle/VehicleModelType.aspx" publishTime="11/08/2012 11:39:00" />
+    <file relUrl="bin/VehicleMaintenanceSystem.pdb" publishTime="01/23/2014 13:44:30" />
+    <file relUrl="Web.config" publishTime="10/07/2013 13:17:22" />
+  </publishProfile>
+</publishData>
